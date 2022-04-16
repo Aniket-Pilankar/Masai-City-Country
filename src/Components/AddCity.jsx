@@ -18,8 +18,8 @@ const AddCity = () => {
     }, [])
 
     const getCountryName = () => {
-        // axios.get(`http://localhost:3030/countries`).then((res) => {
-        axios.get(`https://whispering-dawn-43845.herokuapp.com/countries`).then((res) => {
+        axios.get(`http://localhost:3030/countries`).then((res) => {
+        // axios.get(`https://whispering-dawn-43845.herokuapp.com/countries`).then((res) => {
 
             const { data } = res
             // console.log('data:', data)
@@ -39,8 +39,8 @@ const AddCity = () => {
 
     const handle_cityName_submit = (e) => {
         e.preventDefault()
-        // axios.post(`http://localhost:3030/city`,single_list).then(() => {
-        axios.post(`https://whispering-dawn-43845.herokuapp.com/city`,single_list).then(() => {
+        axios.post(`http://localhost:3030/city`,single_list).then(() => {
+        // axios.post(`https://whispering-dawn-43845.herokuapp.com/city`,single_list).then(() => {
             alert('succcessfully Created')
         })
     }
