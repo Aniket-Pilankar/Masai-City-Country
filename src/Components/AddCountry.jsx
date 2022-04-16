@@ -16,7 +16,8 @@ const AddCountry = () => {
 
     const handle_countryName_submit =  (e) => {
         e.preventDefault()
-        axios.post(`http://localhost:3030/countries`,countryName).then(() => {
+        axios.post(`https://whispering-dawn-43845.herokuapp.com/countries`,countryName).then(() => {
+        // axios.post(`http://localhost:3030/countries`,countryName).then(() => {
             // console.log(countryName);
         })
     }

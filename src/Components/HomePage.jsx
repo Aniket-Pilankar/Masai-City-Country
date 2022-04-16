@@ -23,7 +23,8 @@ const HomePage = () => {
   console.log('list:', list)
 // -----------------------------------
   const getCountryName = () => {
-    axios.get(`http://localhost:3030/countries`).then((res) => {
+    // axios.get(`http://localhost:3030/countries`).then((res) => {
+    axios.get(`https://whispering-dawn-43845.herokuapp.com/countries`).then((res) => {
 
         const { data } = res
         // console.log('data:', data)
@@ -39,14 +40,16 @@ const HomePage = () => {
     // })
     // setlist([...new_arr])
 
-    axios.delete(`http://localhost:3030/city/${single_item_id}`).then(() => {
+    // axios.delete(`http://localhost:3030/city/${single_item_id}`).then(() => {
+    axios.delete(`https://whispering-dawn-43845.herokuapp.com/city/${single_item_id}`).then(() => {
       getCity_alldetails()
     })
 
   }
 
   const getCity_alldetails = () => {
-    axios.get(`http://localhost:3030/city`).then(({ data }) => {
+    // axios.get(`http://localhost:3030/city`).then(({ data }) => {
+    axios.get(`https://whispering-dawn-43845.herokuapp.com/city`).then(({ data }) => {
       console.log('data:', data)
       setlist([...data])
     })
@@ -73,7 +76,8 @@ const HomePage = () => {
     console.log('editDetail_index:', editDetail_index)
     console.log('updateList_modal:', updateList_modal)
 
-    axios.patch(`http://localhost:3030/city/${editDetail_index}`, updateList_modal).then(() => {
+    // axios.patch(`http://localhost:3030/city/${editDetail_index}`, updateList_modal).then(() => {
+    axios.patch(`https://whispering-dawn-43845.herokuapp.com/city/${editDetail_index}`, updateList_modal).then(() => {
       getCity_alldetails()
     })
 

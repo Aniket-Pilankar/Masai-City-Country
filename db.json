@@ -15,6 +15,10 @@
     {
       "countryName": "China",
       "id": 4
+    },
+    {
+      "countryName": "Australia",
+      "id": 5
     }
   ],
   "city": [
@@ -40,11 +44,11 @@
       "id": 4
     },
     {
-      "cityName": "Beiging",
-      "unique_id": "7kRkJGBFELZXMyQ9_QCrq",
-      "population": "20040000",
-      "country": "China",
-      "id": 5
+      "cityName": "Canberra",
+      "unique_id": "WPzPuaUMGKFMA5DzsF6AS",
+      "population": "999999",
+      "country": "Australia",
+      "id": 6
     }
   ]
 }
