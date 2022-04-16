@@ -1,0 +1,50 @@
+{
+  "countries": [
+    {
+      "countryName": "India",
+      "id": 1
+    },
+    {
+      "countryName": "America",
+      "id": 2
+    },
+    {
+      "countryName": "Russia",
+      "id": 3
+    },
+    {
+      "countryName": "China",
+      "id": 4
+    }
+  ],
+  "city": [
+    {
+      "cityName": "New York",
+      "unique_id": "P2vakbBs2yCE-OC6I3uRP",
+      "population": "10000",
+      "country": "America",
+      "id": 2
+    },
+    {
+      "cityName": "Moscow1",
+      "unique_id": "P2vakcBs2yCE-OC6I3uRP",
+      "population": "300000",
+      "country": "Russia",
+      "id": 3
+    },
+    {
+      "country": "America",
+      "unique_id": "zs90hb4Nut2MsQogb9fGa",
+      "cityName": "california",
+      "population": "25000",
+      "id": 4
+    },
+    {
+      "cityName": "Beiging",
+      "unique_id": "7kRkJGBFELZXMyQ9_QCrq",
+      "population": "20040000",
+      "country": "China",
+      "id": 5
+    }
+  ]
+}
